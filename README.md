@@ -70,10 +70,6 @@ and [quirks](https://github.com/Timendus/chip8-test-suite#flags-test) tests of t
 [CHIP-8 test suite](https://github.com/Timendus/chip8-test-suite). This compatibility choice breaks
 some games, like Blinky.
 
-<div align="center">
-	<img src="./res/demo5.gif" width="60%">
-</div>
-
 ## Controls
 
 | Key    | Action               |
