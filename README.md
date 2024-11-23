@@ -107,7 +107,7 @@ $ pacman -S gcc make sdl2
 
 ### Void Linux
 ```
-$ sudo xbps-install gcc make SDL2-devel
+$ xbps-install gcc make SDL2-devel
 ```
 
 ### OS X
