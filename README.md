@@ -119,7 +119,7 @@ $ brew install gcc make sdl2
 ```sh
 $ git clone https://github.com/LordOfTrident/trip-8
 $ make release
-$ ./trip-8 roms/trip8.rom
+$ ./trip8 roms/trip8.rom
 ```
 
 You can find games and other roms in the [roms](roms/) folder and compatibility tests in the [tests](tests/) folder.
