@@ -126,7 +126,7 @@ You can find games and other roms in the [roms](roms/) folder and compatibility 
 
 ## References
 - https://en.wikipedia.org/wiki/CHIP-8#Opcode_table
-- [Cowgod's CHIP-8 Technical Reference](res/cowgods-chip8-technical-reference.pd)
+- [Cowgod's CHIP-8 Technical Reference](res/cowgods-chip8-technical-reference.pdf)
 - https://www.laurencescotford.net/2020/07/19/chip-8-on-the-cosmac-vip-drawing-sprites/
 
 ## Bugs
