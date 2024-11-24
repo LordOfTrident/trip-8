@@ -88,7 +88,8 @@ some games, like Blinky.
 </div>
 
 Left, up, right and down arrow keys are mapped to CHIP-8 `4`, `2`, `6` and `8` keys respectively due
-to being commonly used for 4-way movement. Controls can be modified in [system_keyboard.c](src/system_keyboard.c).
+to being commonly used for 4-way movement. The numpad keys are mapped to the corresponding CHIP-8
+number keys. Controls can be modified in [system_keyboard.c](src/system_keyboard.c).
 
 ## Pre-requisites
 The following is required to compile the emulator:
