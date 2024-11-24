@@ -5,19 +5,19 @@
 #define TITLE      "TRIP-8"
 #define VIDEO_SIZE (VIDEO_WIDTH * VIDEO_HEIGHT)
 
-/* Green
-	#define WHITE 0x72a488ff
-	#define BLACK 0x212c28ff
-	#define BACK  0x121c19ff
+/* Green (https://lospec.com/palette-list/knockia3310)
+#define WHITE 0x72a488ff
+#define BLACK 0x212c28ff
+#define BACK  0x121c19ff
 */
 
-/* Sand-ish
-	#define BLACK 0x323c39ff
-	#define WHITE 0xd3c9a1ff
-	#define BACK  0x1a2220ff
+/* Sand-ish (https://lospec.com/palette-list/ibm-51)
+#define BLACK 0x323c39ff
+#define WHITE 0xd3c9a1ff
+#define BACK  0x1a2220ff
 */
 
-/* Purple/blue */
+/* Blue (https://lospec.com/palette-list/blue-monochrome-lcd) */
 #define WHITE 0xafa7d4ff
 #define BLACK 0x302a52ff
 #define BACK  0x15102eff

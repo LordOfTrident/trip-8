@@ -61,6 +61,10 @@
 **TRIP-8** is a [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) emulator written in
 [C99](https://en.wikipedia.org/wiki/C99) using the [SDL2](https://www.libsdl.org/) library.
 
+<div align="center">
+	<img src="./res/demo.gif" width="70%">
+</div>
+
 ## Features
 - CPU cycle is 660Hz, but can be edited in [emulator.c](src/emulator.c) with the `CYCLE_MS` macro.
 - Refresh rate is 60Hz (includes updating of timers), but can be edited in [emulator.c](src/emulator.c) with the `REFRESH_MS` macro.
@@ -69,6 +73,7 @@
 and [quirks](https://github.com/Timendus/chip8-test-suite#flags-test) tests of the
 [CHIP-8 test suite](https://github.com/Timendus/chip8-test-suite). This compatibility choice breaks
 some games, like Blinky.
+- Uses a procedural sine wave sound for beep, which can be customized in [system_audio.c](src/system_audio.c).
 
 ## Controls
 
@@ -83,7 +88,7 @@ some games, like Blinky.
 </div>
 
 Left, up, right and down arrow keys are mapped to CHIP-8 `4`, `2`, `6` and `8` keys respectively due
-to being commonly used for 4-way movement.
+to being commonly used for 4-way movement. Controls can be modified in [system_keyboard.c](src/system_keyboard.c).
 
 ## Pre-requisites
 The following is required to compile the emulator:
@@ -124,6 +129,7 @@ You can find games and other roms in the [roms](roms/) folder and compatibility 
 - https://en.wikipedia.org/wiki/CHIP-8#Opcode_table
 - [Cowgod's CHIP-8 Technical Reference](res/cowgods-chip8-technical-reference.pdf)
 - https://www.laurencescotford.net/2020/07/19/chip-8-on-the-cosmac-vip-drawing-sprites/
+- [Blue monochrome color palette](https://lospec.com/palette-list/blue-monochrome-lcd)
 
 ## Bugs
 If you find any bugs, please, [create an issue and report them](https://github.com/LordOfTrident/trip-8/issues).
