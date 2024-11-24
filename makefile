@@ -8,7 +8,7 @@ CFLAGS = -pedantic -Wpedantic -Wshadow -Wvla -Wuninitialized -Wundef -Wno-deprec
          -Wall -Wextra -std=c99
 LDFLAGS = -lm $(shell sdl2-config --cflags --libs)
 
-.PHONY: debug release clean install uninstall all
+.PHONY: debug release install uninstall clean all release-win-x86_64 release-win-i686
 
 debug: CFLAGS += -Werror -DDEBUG -g -Og -fsanitize=address
 debug: $(OUT)
@@ -32,8 +32,19 @@ uninstall: $(INSTALL)
 	rm $(INSTALL)
 
 clean: bin
-	rm -r bin/*
-	rm $(OUT)
+	rm -f -r bin/*
+	rm -f $(OUT) $(OUT).exe
 
 all:
-	@echo build, install, uninstall, clean
+	@echo debug, release, install, uninstall, clean, release-win-x86_64, release-win-i686
+
+# Windows Mingw release builds
+release-win-x86_64: CC       = "x86_64-w64-mingw32-gcc"
+release-win-x86_64: CFLAGS  += "-I./lib/include"
+release-win-x86_64: LDFLAGS += "-L./lib/bin/x86_64-w64"
+release-win-x86_64: release
+
+release-win-i686: CC       = "i686-w64-mingw32-gcc"
+release-win-i686: CFLAGS  += "-I./lib/include"
+release-win-i686: LDFLAGS += "-L./lib/bin/i686-w64"
+release-win-i686: release

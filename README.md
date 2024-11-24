@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+g<a name="readme-top"></a>
 <div align="center">
 	<a href="./LICENSE">
 		<img alt="License" src="https://img.shields.io/badge/license-MIT-e8415e?style=for-the-badge">
@@ -98,22 +98,22 @@ The following is required to compile the emulator:
 - [SDL2](https://github.com/libsdl-org/SDL)
 
 ### Debian Linux
-```
+```sh
 $ apt install gcc make libsdl2-dev
 ```
 
 ### Arch Linux
-```
+```sh
 $ pacman -S gcc make sdl2
 ```
 
 ### Void Linux
-```
+```sh
 $ xbps-install gcc make SDL2-devel
 ```
 
 ### OS X
-```
+```sh
 $ brew install gcc make sdl2
 ```
 
@@ -125,6 +125,12 @@ $ ./trip8 roms/trip8.rom
 ```
 
 You can find games and other roms in the [roms](roms/) folder and compatibility tests in the [tests](tests/) folder.
+
+If you are on Linux (or a Unix OS), you can use `make install` to install the emulator into `/usr/bin/trip8`:
+```sh
+$ make install
+$ trip8 roms/trip8.rom
+```
 
 ## References
 - https://en.wikipedia.org/wiki/CHIP-8#Opcode_table
