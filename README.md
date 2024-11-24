@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 	<a href="./LICENSE">
-		<img alt="License" src="https://img.shields.io/badge/license-MIT-e8415e?style=for-the-badge">
+		<img alt="License" src="https://img.shields.io/badge/license-GPL v3-e8415e?style=for-the-badge">
 	</a>
 	<a href="https://github.com/LordOfTrident/trip-8/graphs/contributors">
 		<img alt="Contributors" src="https://img.shields.io/github/contributors/LordOfTrident/trip-8?style=for-the-badge&color=f36a3b">
