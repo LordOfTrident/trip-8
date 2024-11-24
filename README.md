@@ -48,6 +48,7 @@ g<a name="readme-top"></a>
 				<li><a href="#debian-linux">Debian Linux</a></li>
 				<li><a href="#arch-linux">Arch Linux</a></li>
 				<li><a href="#void-linux">Void Linux</a></li>
+				<li><a href="#alpine-linux">Alpine Linux</a></li>
 				<li><a href="#os-x">OS X</a></li>
 			</ul>
 		</li>
@@ -110,6 +111,11 @@ $ pacman -S gcc make sdl2
 ### Void Linux
 ```sh
 $ xbps-install gcc make SDL2-devel
+```
+
+### Alpine Linux
+```sh
+$ apk add gcc make sdl2
 ```
 
 ### OS X
