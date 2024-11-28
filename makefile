@@ -17,7 +17,7 @@ release: CFLAGS += -DRELEASE -g0 -O2
 release: $(OUT)
 
 $(OUT): bin $(OBJ) $(SRC)
-	$(CC) -o $(OUT) $(LDFLAGS) $(OBJ)
+	$(CC) -o $(OUT) $(OBJ) $(LDFLAGS)
 
 bin/%.o: src/%.c $(DEPS)
 	$(CC) -c $< $(CFLAGS) -o $@
