@@ -10,8 +10,7 @@ LDFLAGS = -lm $(shell sdl2-config --libs)
 
 .PHONY: debug release install uninstall clean all release-win-x86_64 release-win-i686
 
-debug: CFLAGS  += -Werror -DDEBUG -g -Og
-debug: LDFLAGS += -fsanitize=address
+debug: CFLAGS += -Werror -DDEBUG -g -Og -fsanitize=address
 debug: $(OUT)
 
 release: CFLAGS += -DRELEASE -g0 -O2
