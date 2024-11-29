@@ -2,7 +2,7 @@
 #define COMMON_H_HEADER_GUARD
 
 #include <stdio.h>  /* fprintf, stderr */
-#include <stdlib.h> /* size_t, malloc, realloc, free, exit, EXIT_FAILURE */
+#include <stdlib.h> /* exit, EXIT_FAILURE */
 #include <stdarg.h> /* va_list, va_start, va_end, va_arg */
 
 #define Fatal(...) FatalFrom(__FILE__, __LINE__, __VA_ARGS__)
