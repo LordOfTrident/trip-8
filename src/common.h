@@ -5,8 +5,8 @@
 #include <stdlib.h> /* size_t, malloc, realloc, free, exit, EXIT_FAILURE */
 #include <stdarg.h> /* va_list, va_start, va_end, va_arg */
 
-#define Fatal(...)  FatalFrom(__FILE__, __LINE__, __VA_ARGS__)
-#define Info(...)   InfoFrom(__FILE__, __LINE__, __VA_ARGS__)
+#define Fatal(...) FatalFrom(__FILE__, __LINE__, __VA_ARGS__)
+#define Info(...)  InfoFrom(__FILE__, __LINE__, __VA_ARGS__)
 
 #ifdef DEBUG
 #	define Assert(X, ...)                                         \
