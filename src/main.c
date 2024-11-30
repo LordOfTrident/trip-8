@@ -15,7 +15,7 @@ static void Usage(void) {
 	       "   |_| |_|_\\___|_|     \\___/\n"
 	       "  Trident's CHIP-8 emulator\n"
 	       "\n"
-	       "Source code: https://github.com/lordoftrident/trip-8\n"
+	       "Source code: https://github.com/LordOfTrident/trip-8\n"
 	       "Usage: %s <ROM_PATH> | -h | -v\n"
 	       "Options:\n"
 	       "  -h    Print this message\n"
