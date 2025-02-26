@@ -21,9 +21,9 @@
 	<p align="center">🔱 Trident's CHIP-8 emulator 👾</p>
 	<p align="center">
 		<a href="#games">Games</a>
-		.
+		·
 		<a href="#tests">Tests</a>
-		.
+		·
 		<a href="https://github.com/LordOfTrident/trip-8/issues">Report Bug</a>
 		·
 		<a href="https://github.com/LordOfTrident/trip-8/issues">Request Feature</a>
